@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded',function() {
     const root = document.documentElement;
     switcherTheme.addEventListener('click', toggleTheme);
     if(root.getAttribute('data-theme') === 'dark'){
-        swictherTheme.checked = true;      
+        switcherTheme.checked = true;      
     } 
     function toggleTheme() {
         const setTheme = switcherTheme.checked ? 'dark' : 'light';
