@@ -47,6 +47,11 @@ body{
     font-family:'Raleway', sans-serif;
     color:var(--text-color);
 }
+/* Agregar un estilo específico para el fondo blanco en el modo claro */
+body[data-theme="light"] {
+    background-color: rgb(240, 240, 240); /* Cambia el fondo a blanco en modo claro */
+    color:  rgb(11, 11, 11); /* Cambia el texto a negro en modo claro */
+}
 
 .main{
     min-height:600px;
@@ -125,6 +130,9 @@ body{
     color: var(--text-color);
 }
 
+
+
+/*
 @media (prefers-color-scheme: dark) {
     :root[data-theme] {
         --message-mode: 'Dark Mode';
@@ -140,4 +148,4 @@ body{
         --color-active: #fff;
         --border-option: none;
     }
-}
+}*/
